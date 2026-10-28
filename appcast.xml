@@ -1,6 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Echolot</title>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Wed, 28 Oct 2026 22:01:29 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Send HTTP/1.1, HTTP/2, GraphQL, WebSocket, Server-Sent Events and gRPC requests, and see exactly what went over the wire: raw bytes, every redirect hop and a full timing breakdown.</li>
+<li>Workspaces are folders of readable TOML files you can keep in Git; secrets stay in the Keychain.</li>
+<li>Import from Postman, Insomnia, Bruno, Paw, OpenAPI, HAR and cURL, check responses with tests, and run whole folders in the Runner or with the echolot command-line tool.</li>
+<li>Design OpenAPI specs, serve them as local mocks, and chain requests into flows on a canvas.</li>
+<li>Inspect and call MCP servers, and let AI agents work in your workspace through Echolot&apos;s own MCP server.</li>
+<li>The Assistant, built in: it sends, tests and fixes requests with your own model keys, and asks before it changes anything.</li>
+<li>Echolot updates itself (Echolot › Check for Updates…), and Help › What&apos;s New in Echolot shows what changed.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.2.0/Echolot-0.2.0.dmg" length="69780791" type="application/octet-stream" sparkle:edSignature="8FyGN8OHrYHJCDqHbaGv2KGf+RARp4C9xnHIZ5tmtLX9roSZ4JbKQchFRGWBPuzkmHHsyppRFxExILWs0pLuBQ=="/>
+        </item>
     </channel>
 </rss>
