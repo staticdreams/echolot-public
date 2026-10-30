@@ -3,6 +3,30 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Fri, 30 Oct 2026 14:17:27 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Each kind of request keeps its own layout (side by side or stacked) and where you left the divider, saved on this Mac; View › Panes › Reset Pane Sizes starts over.</li>
+<li>⌘P switches to a recent workspace from a floating list, like the command palette.</li>
+<li>File › Open Recent lists your recent workspaces.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Echolot › About Echolot, Help › Echolot Website and Settings › About link to echolot.dev.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Open Workspace… can choose .echolot workspaces again; they were greyed out.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.3.1/Echolot-0.3.1.dmg" length="91913339" type="application/octet-stream" sparkle:edSignature="rG4yzQEdISAJKEAMdYKhXDifwsBiXNskHj/i53+mpr+BN2A1ukhVsyDMTiwNkimNgWpDmiOBYP6LGdDL6DL1DQ=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Fri, 30 Oct 2026 12:09:53 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
