@@ -3,6 +3,28 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Fri, 30 Oct 2026 12:09:53 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Socket.IO and MQTT requests: namespaces, events and acknowledgements; MQTT 3.1.1 and 5.0 with QoS 0–2, over TCP, TLS or WebSocket.</li>
+<li>HTTP/3 on macOS 27: pick it per request, or let Automatic switch when a server offers it.</li>
+<li>Install the echolot command-line tool on your PATH from Settings › General.</li>
+<li>This is a public beta: each build expires 30 days after release, and Echolot updates itself before then.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Protected environments ask before every send, run and connection you start, not only before agents&apos;.</li>
+<li>Imported credentials go to the Keychain instead of the request files, and the import report names them.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.3.0/Echolot-0.3.0.dmg" length="91846684" type="application/octet-stream" sparkle:edSignature="Y/ZGWI3uLeUBnMeTAgdLRUbZMYGOAS3peNfh6zQQoLrvisSpNOWpZHCOKN7Ej+3Aywed52gwGaBYZ/+RBCFIDg=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Wed, 28 Oct 2026 22:01:29 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
