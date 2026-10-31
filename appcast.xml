@@ -3,6 +3,34 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Sat, 31 Oct 2026 13:09:39 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improved</h3>
+<ul>
+<li>Protected environments ask before more things: MCP calls, checks and watches, Get Token, schema fetches, gRPC reflection and messages sent on an open session after you switch environments.</li>
+<li>A proxy password or certificate passphrase kept as plain text now carries a warning, with Move to Keychain beside it; clearing one request&apos;s history asks first.</li>
+<li>Typing {{ offers the request&apos;s variables again in the URL bar, and the variables a folder&apos;s or workspace&apos;s auth resolves with in their settings.</li>
+<li>The JSON tree opens large responses sooner, and the flow canvas pans more smoothly.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Secrets stay put: API key headers and headers holding a secret no longer follow a redirect to another origin, history no longer keeps Hawk, EdgeGrid, NTLM, proxy or certificate secrets, and with encrypted storage a response&apos;s text stays out of the search index.</li>
+<li>Agents read history with credentials masked, and a search match that touches a secret is neither counted nor shown; an agent&apos;s limits also hold inside the flows it runs.</li>
+<li>NTLM sign-in works over HTTP/1.1 without another request borrowing its connection, and a server that insists on HTTP/1.1 gets it. HTTP/3 tries every address of a host at once, as TCP does.</li>
+<li>Responses that expand absurdly (past 100 to 1 beyond 256 MB), and WebSocket and Socket.IO messages built from huge fragments, are cut off instead of filling memory.</li>
+<li>Export never writes over, into or around the workspace it comes from, sends what it replaces to the Trash, and says how many credentials were written in clear.</li>
+<li>Edits are no longer lost: folder and workspace settings, mock routes and a tab closing just before you quit are all written, and a failed save keeps your text.</li>
+<li>Closing a window stops its runs and sends. Runs with iterations side by side keep their own $response values, and data files of up to 100 MB load without freezing the window.</li>
+<li>A flow whose request script fails now takes the failure path, and background services follow a choice of no environment.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.5.0/Echolot-0.5.0.dmg" length="92483616" type="application/octet-stream" sparkle:edSignature="3CegxHaqTKxsTbpLz5vfuuEC4U9mfIVK/3htU+ZsjWbUce18Cqt3UhsN17B7IglEmte/YdC6d902OAS/rU4kCQ=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Fri, 30 Oct 2026 20:30:05 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
