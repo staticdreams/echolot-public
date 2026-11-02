@@ -3,6 +3,37 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Mon, 02 Nov 2026 09:00:11 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Mocks no longer need a spec: make routes by hand (method, path with {id}, status, headers, body and rules on the request), with fake data in their bodies: {{$randomFullName}}, {{request.params.id}}, {{#repeat 10}}…{{/repeat}}. Create Requests turns a mock&apos;s routes into requests.</li>
+<li>The same fake values work in requests, and echolot fake writes fake data from a template on the command line.</li>
+<li>Select several requests in the sidebar to put them in a new folder (New Folder with N Items) or change their headers, query parameters and auth at once (Edit N Requests…).</li>
+<li>Echo, an optional status screen in the page header (Settings › General › Echo), tells what happens in the window, and a click unrolls a report of the session.</li>
+<li>Help › Echolot Documentation (⌘?) opens the new documentation at docs.echolot.dev, and Help › Help for This Page the page about what you&apos;re looking at.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Echolot asks once per model provider before sending anything to it; Settings › Assistant lists what you&apos;ve allowed, with Revoke. Apple&apos;s on-device model and servers on your Mac never ask.</li>
+<li>After an update nothing opens by itself: a What&apos;s New button in the page header shows the new notes.</li>
+<li>The command palette offers only what makes sense on the page showing.</li>
+<li>JSON responses show \u escapes as the characters they stand for.</li>
+<li>The sidebar&apos;s highlight glides from row to row, and the module switcher springs to the module you pick.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Add Rule and Add Header keep the row they add and put the cursor in it.</li>
+<li>The window&apos;s traffic lights no longer sit cut off when another window comes to the front.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.6.0/Echolot-0.6.0.dmg" length="94654835" type="application/octet-stream" sparkle:edSignature="bmuuRg0ra4KnjeUSCbobgDNJjuatb7k0WWBSSVq5V49q5aqxZ/+J0pLxWacOAyEQ/ZYKXrOnWjE9cPLjEdCFAA=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Sat, 31 Oct 2026 13:09:39 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
