@@ -3,11 +3,11 @@
     <channel>
         <title>Echolot</title>
         <item>
-            <title>0.7.0</title>
-            <pubDate>Tue, 03 Nov 2026 12:01:52 +0100</pubDate>
+            <title>0.7.1</title>
+            <pubDate>Tue, 03 Nov 2026 12:57:29 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h3>New</h3>
 <ul>
@@ -16,6 +16,7 @@
 <li>Workspace auth from any request: the Auth tab opens the folder or workspace auth a request inherits (Workspace Auth… for one with its own), and folder and workspace settings sign in with OAuth 2.0 once for every request that inherits.</li>
 <li>More auth: OAuth 1.0, OAuth 2.0&apos;s password grant and Advanced settings, and Postman&apos;s ASAP auth imported as JWT Bearer.</li>
 <li>Agents and the Assistant can give requests auth and captures (credentials only as {{variables}}), set a folder&apos;s auth, and try a flow once after you approve it; Settings › Assistant › Ask before can limit questions to deleting, new hosts and protected environments.</li>
+<li>Requests whose last call failed show a warning sign in the requests list, with what went wrong.</li>
 </ul>
 <h3>Improved</h3>
 <ul>
@@ -29,9 +30,11 @@
 <li>Security fixes from two audits: OAuth tokens are kept per environment and settings and never go to another host; agents can&apos;t write credentials into files or send secrets to new hosts without asking; stopped mock, MCP and webhook servers close every connection.</li>
 <li>Fixed a crash on very large numbers in values, HTTPS proxies failing with HTTP/2 servers, text ending in &quot;&quot;&quot; changing when saved, and moves or renames wiping open tabs&apos; undo.</li>
 <li>With encryption at rest on, history no longer keeps request bodies in plain text.</li>
+<li>Workspace and folder settings follow your appearance, Marine included, and keep one size when you switch tabs.</li>
+<li>The gRPC call bar fits its pane: long proto, service and method names are cut short instead of running into the response.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.7.0/Echolot-0.7.0.dmg" length="97152186" type="application/octet-stream" sparkle:edSignature="6LiMTl+fmDGUtq4SFBXWuNLvJW65kwHDY5WgYpnMpE58XELZOE96kEiJlNmAxTF2zt/pcJCwRRrE2lBMiyu0Ag=="/>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.7.1/Echolot-0.7.1.dmg" length="97238332" type="application/octet-stream" sparkle:edSignature="iW5S6kg0qZlsGLY3XvIdKyLIyy50Ji/MOi8fcx6d4QpyRtoM6UcDe6W9gmoN3nCw5Ei4Gqyd4vMr7EDBiR4cDQ=="/>
         </item>
         <item>
             <title>0.6.0</title>
