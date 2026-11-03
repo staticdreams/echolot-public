@@ -3,6 +3,37 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Tue, 03 Nov 2026 12:01:52 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Home&apos;s Sonar card plots every send of the last hour, 24 hours, 7 or 30 days by response time, with sends, answered OK, median and p95 against the period before.</li>
+<li>Marine, a second dark appearance in deep-water blues (Settings › General › Appearance).</li>
+<li>Workspace auth from any request: the Auth tab opens the folder or workspace auth a request inherits (Workspace Auth… for one with its own), and folder and workspace settings sign in with OAuth 2.0 once for every request that inherits.</li>
+<li>More auth: OAuth 1.0, OAuth 2.0&apos;s password grant and Advanced settings, and Postman&apos;s ASAP auth imported as JWT Bearer.</li>
+<li>Agents and the Assistant can give requests auth and captures (credentials only as {{variables}}), set a folder&apos;s auth, and try a flow once after you approve it; Settings › Assistant › Ask before can limit questions to deleting, new hosts and protected environments.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>The Assistant&apos;s replies render as Markdown and stay smooth while they stream.</li>
+<li>Flow cards show what they do, conditions are edited as rules, and an Evaluate block&apos;s last expression is its result.</li>
+<li>Settings › Storage shows how much room response bodies take, and Remove Stored Bodies… frees it.</li>
+<li>On smaller screens the Assistant and pinned variables no longer push the window past the screen: the variables float instead.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Security fixes from two audits: OAuth tokens are kept per environment and settings and never go to another host; agents can&apos;t write credentials into files or send secrets to new hosts without asking; stopped mock, MCP and webhook servers close every connection.</li>
+<li>Fixed a crash on very large numbers in values, HTTPS proxies failing with HTTP/2 servers, text ending in &quot;&quot;&quot; changing when saved, and moves or renames wiping open tabs&apos; undo.</li>
+<li>With encryption at rest on, history no longer keeps request bodies in plain text.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.7.0/Echolot-0.7.0.dmg" length="97152186" type="application/octet-stream" sparkle:edSignature="6LiMTl+fmDGUtq4SFBXWuNLvJW65kwHDY5WgYpnMpE58XELZOE96kEiJlNmAxTF2zt/pcJCwRRrE2lBMiyu0Ag=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Mon, 02 Nov 2026 09:00:11 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
