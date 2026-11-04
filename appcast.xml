@@ -3,6 +3,37 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.8.0</title>
+            <pubDate>Wed, 04 Nov 2026 22:02:29 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Echolot now speaks French, German, Spanish, Japanese, Korean, Russian and Simplified Chinese. It follows the system language, or pick one in Settings › General › Language.</li>
+<li>A guided tour on first launch, to replay from Help › Show the Tour.</li>
+<li>The Assistant panel resizes: drag its edge (double-click restores the default).</li>
+<li>Mocks answer spec operations that have no example with fresh fake data that fits each field.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Echo, the status screen in the page header, is on by default.</li>
+<li>In the Assistant&apos;s approval sheet, Allow for This Session now covers every change to the workspace at once; deleting still asks.</li>
+<li>The welcome window gets a sonar ping behind the app icon.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>The request editor no longer draws over the response.</li>
+<li>Home fits a narrow window, so a wide Assistant no longer pushes it over the sidebar.</li>
+<li>Echo&apos;s greeting is no longer squeezed, and the Assistant&apos;s title stays on one line in every language.</li>
+<li>Removing a test with its minus button no longer crashes Echolot, and neither does removing an MQTT subscription or message, a WebSocket message or a Socket.IO emit. Thanks to Amit for reporting it.</li>
+<li>The minus button in the Flows list deletes the selected flow; it used to take clicks only on its thin line.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.8.0/Echolot-0.8.0.dmg" length="100923458" type="application/octet-stream" sparkle:edSignature="jX1q3HuzM9REeY6o5SjKGKZ74duRhS+JO2gQ9+b1K2n7ayl4e2CvWa1Ro3nUZeppG1h+YW/0D6q0rjYo8FvGCw=="/>
+        </item>
+        <item>
             <title>0.7.1</title>
             <pubDate>Tue, 03 Nov 2026 12:57:29 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
