@@ -214,3 +214,5 @@ No account and no cloud: your workspaces stay on your Mac. Secrets live in the K
 ## About this repository
 
 Echolot's source code is private. This repository holds its public side: the [releases](https://github.com/staticdreams/echolot-public/releases), the update feed [`appcast.xml`](appcast.xml) (served at `https://staticdreams.github.io/echolot-public/appcast.xml`), and a place to [report a bug or ask for a feature](https://github.com/staticdreams/echolot-public/issues).
+
+[![M8ven Score](https://m8ven.ai/badge/mcp/staticdreams-echolot-public-pvlvkx?v=94f41a2a29e5c6bb1fbffa1d4b9f8034)](https://m8ven.ai/mcp/staticdreams-echolot-public-pvlvkx?s=readme)
