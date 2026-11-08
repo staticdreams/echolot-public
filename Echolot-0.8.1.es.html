@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Nuevo</h3>
+<ul>
+<li>Ajustes › Acerca de muestra cuándo caduca una versión beta, con los días que quedan.</li>
+<li>Los agentes CLI del Asistente (Claude Code, Codex, Gemini CLI) inician sus adaptadores ACP actuales; las cuentas creadas a partir de un preajuste antiguo pasan al nuevo comando por sí solas.</li>
+</ul>
+<h3>Mejorado</h3>
+<ul>
+<li>El envío sigue siendo rápido a medida que se llena el historial: un envío ya no recorre todo el historial ni espera al disco (un historial de 20.000 entradas se llena cuatro veces más rápido).</li>
+<li>Los espacios de trabajo nuevos incluyen un archivo .gitattributes, para que Git nunca cambie los finales de línea de sus archivos, y las exportaciones lo conservan.</li>
+</ul>
+<h3>Corregido</h3>
+<ul>
+<li>Una solicitud eliminada fuera de Echolot mientras la editas ya no se vuelve a escribir: una barra ofrece Guardar de nuevo o Descartar.</li>
+<li>Los nombres de los entornos y los valores secretos se guardan al salir del campo, sin espacios al principio ni al final, y un entorno ya no puede quedarse sin nombre.</li>
+<li>Las variables globales cambiadas en una ventana llegan a todas las ventanas abiertas.</li>
+<li>Detener un envío deja de seguir su respuesta, y volver a conectar una sesión WebSocket, Socket.IO o MQTT nunca cierra la conexión más reciente.</li>
+<li>Las nuevas llamadas MCP y gRPC se pueden deshacer, y las preguntas de los flujos y las peticiones de datos de MCP esperan su turno en lugar de reemplazarse entre sí.</li>
+<li>Permitir acceso concede solo el archivo que Echolot pidió.</li>
+<li>Al abrir varias especificaciones seguidas, se muestra la última que se abrió.</li>
+</ul>
+</body></html>

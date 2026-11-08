@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>새로운 기능</h3>
+<ul>
+<li>설정 › 정보에 베타 빌드의 만료 시점과 남은 일수가 표시됩니다.</li>
+<li>어시스턴트의 CLI 에이전트(Claude Code, Codex, Gemini CLI)가 최신 ACP 어댑터로 시작되며, 이전 프리셋으로 만든 계정은 새 명령으로 자동으로 옮겨집니다.</li>
+</ul>
+<h3>개선됨</h3>
+<ul>
+<li>기록이 쌓여도 보내기가 빠르게 유지됩니다. 이제 보낼 때 기록 전체를 검색하거나 디스크를 기다리지 않습니다(20,000개 항목의 기록이 네 배 빠르게 채워집니다).</li>
+<li>새 작업 공간에 .gitattributes가 포함되어 Git이 파일의 줄 끝을 바꾸지 않으며, 내보내기에도 이 파일이 유지됩니다.</li>
+</ul>
+<h3>수정됨</h3>
+<ul>
+<li>편집하는 동안 Echolot 외부에서 삭제된 요청이 더 이상 다시 저장되지 않습니다. 막대에서 다시 저장 또는 버리기를 선택할 수 있습니다.</li>
+<li>환경 이름과 비밀 값은 필드를 벗어날 때 앞뒤 공백이 제거되어 저장되며, 이제 환경 이름을 비워 둘 수 없습니다.</li>
+<li>한 윈도우에서 변경한 전역 변수가 열려 있는 모든 윈도우에 반영됩니다.</li>
+<li>보내기를 중지하면 응답 수신도 중지되며, WebSocket, Socket.IO 또는 MQTT 세션을 다시 연결해도 더 새로운 연결이 닫히지 않습니다.</li>
+<li>새로운 MCP 및 gRPC 호출을 실행 취소할 수 있으며, 플로 프롬프트와 MCP 입력 요청이 서로를 대체하지 않고 차례를 기다립니다.</li>
+<li>접근 허용은 Echolot이 요청한 파일에만 권한을 부여합니다.</li>
+<li>여러 명세를 빠르게 열면 마지막으로 연 명세가 표시됩니다.</li>
+</ul>
+</body></html>

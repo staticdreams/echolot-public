@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Nouveau</h3>
+<ul>
+<li>Réglages › À propos indique quand une version bêta expire, avec les jours restants.</li>
+<li>Les agents CLI de l’Assistant (Claude Code, Codex, Gemini CLI) lancent leurs adaptateurs ACP actuels ; les comptes créés à partir d’un ancien préréglage passent d’eux-mêmes à la nouvelle commande.</li>
+</ul>
+<h3>Amélioré</h3>
+<ul>
+<li>L’envoi reste rapide à mesure que l’historique se remplit : un envoi ne parcourt plus tout l’historique et n’attend plus le disque (un historique de 20 000 entrées se remplit quatre fois plus vite).</li>
+<li>Les nouveaux espaces de travail sont créés avec un fichier .gitattributes, pour que Git ne change jamais les fins de ligne de leurs fichiers, et les exportations le conservent.</li>
+</ul>
+<h3>Corrigé</h3>
+<ul>
+<li>Une requête supprimée en dehors d’Echolot pendant que vous la modifiez n’est plus réécrite : une barre propose Enregistrer à nouveau ou Abandonner.</li>
+<li>Les noms d’environnement et les valeurs secrètes sont enregistrés quand vous quittez le champ, sans les espaces en trop, et un environnement ne peut plus rester sans nom.</li>
+<li>Les variables globales modifiées dans une fenêtre parviennent à toutes les fenêtres ouvertes.</li>
+<li>Arrêter un envoi arrête aussi le suivi de sa réponse, et reconnecter une session WebSocket, Socket.IO ou MQTT ne ferme jamais la connexion la plus récente.</li>
+<li>La création d’un appel MCP ou gRPC peut être annulée, et les invites des flux et les demandes de saisie MCP attendent leur tour au lieu de se remplacer les unes les autres.</li>
+<li>Autoriser l’accès n’autorise que le fichier demandé par Echolot.</li>
+<li>Ouvrir plusieurs specs rapidement affiche la dernière ouverte.</li>
+</ul>
+</body></html>

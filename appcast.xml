@@ -3,6 +3,44 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.8.1</title>
+            <pubDate>Sun, 08 Nov 2026 10:33:27 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Settings › About shows when a beta build expires, with the days left.</li>
+<li>The Assistant&apos;s CLI agents (Claude Code, Codex, Gemini CLI) start their current ACP adapters; accounts made from an old preset move to the new command by themselves.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Sending stays fast as history fills up: a send no longer scans the whole history or waits for the disk (a 20,000-entry history fills four times faster).</li>
+<li>New workspaces come with a .gitattributes, so Git never changes the line endings of their files, and exports keep it.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>A request deleted outside Echolot while you edit it is no longer written back: a bar offers Save Again or Discard.</li>
+<li>Environment names and secret values are saved when you leave the field, trimmed, and an environment can no longer be left without a name.</li>
+<li>Global variables changed in one window reach every open window.</li>
+<li>Stopping a send stops following its response, and reconnecting a WebSocket, Socket.IO or MQTT session never closes the newer connection.</li>
+<li>New MCP and gRPC calls can be undone, and flow prompts and MCP input requests wait their turn instead of replacing each other.</li>
+<li>Allow Access grants only the file Echolot asked for.</li>
+<li>Opening several specs quickly shows the last one opened.</li>
+</ul>
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="de">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh">https://staticdreams.github.io/echolot-public/Echolot-0.8.1.zh.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.8.1/Echolot-0.8.1.dmg" length="85913324" type="application/octet-stream" sparkle:edSignature="HM8rgG7hK0RG8yP7uhyKi2tpxzPjhRKZFbLz2Lw/OW4HT+7af3JmAAsy3a37/2wXG5cPXo3a+/MXyN+6fUtOCA=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Wed, 04 Nov 2026 22:02:29 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>

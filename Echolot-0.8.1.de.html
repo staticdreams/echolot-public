@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Neu</h3>
+<ul>
+<li>„Einstellungen › Über“ zeigt, wann ein Beta-Build abläuft, mit den verbleibenden Tagen.</li>
+<li>Die CLI-Agenten des Assistenten (Claude Code, Codex, Gemini CLI) starten ihre aktuellen ACP-Adapter; Accounts, die aus einer alten Vorlage erstellt wurden, wechseln von selbst zum neuen Befehl.</li>
+</ul>
+<h3>Verbessert</h3>
+<ul>
+<li>Das Senden bleibt schnell, während sich der Verlauf füllt: Eine Anfrage durchsucht nicht mehr den ganzen Verlauf und wartet nicht mehr auf die Festplatte (ein Verlauf mit 20.000 Einträgen füllt sich viermal so schnell).</li>
+<li>Neue Arbeitsbereiche bringen eine .gitattributes mit, sodass Git die Zeilenenden ihrer Dateien nie ändert, und Exporte behalten sie bei.</li>
+</ul>
+<h3>Behoben</h3>
+<ul>
+<li>Eine Anfrage, die außerhalb von Echolot gelöscht wird, während du sie bearbeitest, wird nicht mehr zurückgeschrieben: Eine Leiste bietet „Erneut sichern“ oder „Verwerfen“ an.</li>
+<li>Namen von Umgebungen und geheime Werte werden beim Verlassen des Felds gesichert, ohne Leerzeichen am Anfang und Ende, und eine Umgebung kann nicht mehr ohne Namen bleiben.</li>
+<li>Globale Variablen, die in einem Fenster geändert werden, kommen in jedem offenen Fenster an.</li>
+<li>Das Stoppen einer Anfrage beendet auch das Verfolgen ihrer Antwort, und das erneute Verbinden einer WebSocket-, Socket.IO- oder MQTT-Sitzung schließt nie die neuere Verbindung.</li>
+<li>Neue MCP- und gRPC-Aufrufe lassen sich widerrufen, und Rückfragen von Flows sowie Eingabeanfragen von MCP-Servern warten, bis sie an der Reihe sind, statt einander zu ersetzen.</li>
+<li>„Zugriff erlauben“ gewährt nur Zugriff auf die Datei, nach der Echolot gefragt hat.</li>
+<li>Wenn du mehrere Specs schnell nacheinander öffnest, wird die zuletzt geöffnete angezeigt.</li>
+</ul>
+</body></html>
