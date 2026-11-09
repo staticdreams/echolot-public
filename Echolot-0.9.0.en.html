@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>New</h3>
+<ul>
+<li>Mocks stream: routes play server-sent events, take WebSocket and Socket.IO connections, and a mock can run an MQTT broker beside its port. JavaScript routes take sockets too.</li>
+<li>gRPC requests can run as live calls: send messages one at a time and see answers as they arrive.</li>
+<li>Webhooks can be signed: a sender&apos;s HMAC signature lets a delivery in without the token, and tokens can be rotated.</li>
+<li>Agents make every kind of request, set OAuth 2.0 client-credentials auth, and keep WebSocket, Socket.IO and MQTT sessions open across calls (the new Sessions toolset, with Stop in the Agents popover).</li>
+<li>Agents can propose a script: you see the diff and choose Save and Trust or Decline.</li>
+<li>Suites check WebSocket, Socket.IO and MQTT sessions: checks and captures on received messages, message counts and closes, and a request can stop listening once it has what it needs.</li>
+<li>The Tests page runs checks with Run and Run All; the Runner filters its results by Passed and Failed.</li>
+<li>The command palette (⌘K) finds flows, specs, mocks and MCP servers by name.</li>
+<li>GraphQL requests can share one query file, and a request can name its own spec for openapi checks.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Released builds no longer ask for Keychain access: the app and the command-line tool share their secrets. Variable editors warn about short secrets and ordinary words.</li>
+<li>Schedules and webhooks can name their environment and never run in a protected one they didn&apos;t name. `echolot mcp serve` moves to the app when the app opens the workspace.</li>
+<li>`echolot run` keeps captured values in memory unless --save-captures, and never sends a request whose variables don&apos;t resolve.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed gRPC reflection with relative type names, MQTT brokers that only speak 3.1.1, and a few layouts that ran past their pane in French and Russian.</li>
+</ul>
+</body></html>

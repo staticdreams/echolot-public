@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>새로운 기능</h3>
+<ul>
+<li>모의 서버가 스트리밍을 지원합니다. 경로가 서버 전송 이벤트를 재생하고 WebSocket 및 Socket.IO 연결을 받으며, 모의 서버가 자체 포트 옆에서 MQTT 브로커를 실행할 수 있습니다. JavaScript 경로도 소켓을 받습니다.</li>
+<li>gRPC 요청을 실시간 호출로 실행할 수 있습니다. 메시지를 하나씩 보내고 응답이 도착하는 대로 확인할 수 있습니다.</li>
+<li>웹훅에 서명할 수 있습니다. 발신자의 HMAC 서명이 있으면 토큰 없이도 전달을 받아들이며, 토큰을 교체할 수 있습니다.</li>
+<li>에이전트가 모든 종류의 요청을 만들고, OAuth 2.0 클라이언트 자격 증명 인증을 설정하며, WebSocket, Socket.IO 및 MQTT 세션을 여러 호출에 걸쳐 열어 둘 수 있습니다(새로운 세션 도구 모음, 에이전트 팝오버의 중단 버튼).</li>
+<li>에이전트가 스크립트를 제안할 수 있습니다. 변경 내용(diff)을 확인하고 저장하고 신뢰 또는 거절을 선택할 수 있습니다.</li>
+<li>테스트 모음에서 WebSocket, Socket.IO 및 MQTT 세션을 검사합니다. 받은 메시지, 메시지 수, 연결 종료에 대한 검사와 캡처를 지원하며, 요청이 필요한 것을 받으면 수신을 멈출 수 있습니다.</li>
+<li>테스트 페이지에서 실행 및 모두 실행으로 검사를 실행하며, 실행 페이지에서 결과를 통과와 실패로 필터링할 수 있습니다.</li>
+<li>명령 팔레트(⌘K)에서 플로, 명세, 모의 서버, MCP 서버를 이름으로 찾을 수 있습니다.</li>
+<li>GraphQL 요청이 하나의 쿼리 파일을 공유할 수 있으며, 요청마다 openapi 검사에 사용할 명세를 직접 지정할 수 있습니다.</li>
+</ul>
+<h3>개선됨</h3>
+<ul>
+<li>릴리스 빌드가 더 이상 키체인 접근을 요청하지 않습니다. 앱과 명령줄 도구가 비밀 값을 공유합니다. 변수 편집기에서 짧은 비밀 값과 일반 단어에 대해 경고합니다.</li>
+<li>일정과 웹훅이 환경을 지정할 수 있으며, 지정하지 않은 보호된 환경에서는 실행되지 않습니다. 앱이 작업 공간을 열면 `echolot mcp serve`가 앱으로 옮겨집니다.</li>
+<li>`echolot run`은 --save-captures를 지정하지 않으면 캡처한 값을 메모리에만 보관하며, 변수를 해석할 수 없는 요청은 보내지 않습니다.</li>
+</ul>
+<h3>수정됨</h3>
+<ul>
+<li>상대 타입 이름을 사용하는 gRPC 리플렉션, 3.1.1만 지원하는 MQTT 브로커, 프랑스어와 러시아어에서 패널을 벗어나던 일부 레이아웃 문제를 수정했습니다.</li>
+</ul>
+</body></html>

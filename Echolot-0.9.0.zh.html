@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>新增</h3>
+<ul>
+<li>模拟服务器支持流式传输：路由可以播放服务器发送事件，接受 WebSocket 和 Socket.IO 连接，模拟服务器还可以在其端口旁运行一个 MQTT Broker。JavaScript 路由也能处理套接字。</li>
+<li>gRPC 请求可以作为“实时调用”运行：逐条发送消息，并在响应到达时立即看到。</li>
+<li>Webhook 可以签名：带有发送方 HMAC 签名的投递无需令牌即可进入，令牌也可以轮换。</li>
+<li>智能体可以创建各种类型的请求，设置 OAuth 2.0 客户端凭据认证，并在多次调用之间保持 WebSocket、Socket.IO 和 MQTT 会话打开（新的“会话”工具集，“智能体”弹出式窗口中提供“停止”）。</li>
+<li>智能体可以提议脚本：你会看到差异，并选择“存储并信任”或“拒绝”。</li>
+<li>测试套件可以检查 WebSocket、Socket.IO 和 MQTT 会话：针对收到的消息、消息数量和关闭进行检查与捕获；请求在获得所需内容后即可停止监听。</li>
+<li>“测试”页面可通过“运行”和“全部运行”运行检查；“运行器”可按“通过”和“失败”筛选结果。</li>
+<li>命令面板（⌘K）可按名称查找流程、规范、模拟服务器和 MCP 服务器。</li>
+<li>GraphQL 请求可以共享同一个查询文件，请求也可以为 openapi 检查指定自己的规范。</li>
+</ul>
+<h3>改进</h3>
+<ul>
+<li>发布版本不再请求钥匙串访问权限：App 和命令行工具共享它们的机密。变量编辑器会对过短的机密和普通单词发出警告。</li>
+<li>计划和 Webhook 可以指定其环境，并且绝不会在未指定的受保护环境中运行。当 App 打开工作区时，`echolot mcp serve` 会转到 App 中运行。</li>
+<li>`echolot run` 会将捕获的值保留在内存中（除非使用 --save-captures），并且绝不会发送变量无法解析的请求。</li>
+</ul>
+<h3>修复</h3>
+<ul>
+<li>修复了 gRPC 反射对相对类型名称的处理、对仅支持 3.1.1 的 MQTT Broker 的支持，以及几处在法语和俄语中超出窗格的布局。</li>
+</ul>
+</body></html>

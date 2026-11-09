@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Neu</h3>
+<ul>
+<li>Mocks streamen: Routen spielen Server-Sent Events ab, nehmen WebSocket- und Socket.IO-Verbindungen an, und ein Mock kann neben seinem Port einen MQTT-Broker betreiben. Auch JavaScript-Routen nehmen Sockets an.</li>
+<li>gRPC-Anfragen können als Live-Aufrufe laufen: Sende Nachrichten einzeln und sieh die Antworten, sobald sie eintreffen.</li>
+<li>Webhooks lassen sich signieren: Die HMAC-Signatur eines Absenders lässt eine Zustellung ohne das Token durch, und Tokens lassen sich rotieren.</li>
+<li>Agenten erstellen jede Art von Anfrage, richten Auth mit den Client-Anmeldedaten von OAuth 2.0 ein und halten WebSocket-, Socket.IO- und MQTT-Sitzungen über mehrere Aufrufe hinweg offen (das neue Tool-Set „Sitzungen“, mit „Stoppen“ im Popover „Agenten“).</li>
+<li>Agenten können ein Skript vorschlagen: Du siehst den Diff und wählst „Sichern und vertrauen“ oder „Ablehnen“.</li>
+<li>Test-Suites prüfen WebSocket-, Socket.IO- und MQTT-Sitzungen: Prüfungen und Erfassungen für empfangene Nachrichten, die Anzahl der Nachrichten und das Schließen, und eine Anfrage kann aufhören zuzuhören, sobald sie hat, was sie braucht.</li>
+<li>Die Seite „Tests“ führt Prüfungen mit „Ausführen“ und „Alle ausführen“ aus; die „Ausführung“ filtert ihre Ergebnisse nach „Bestanden“ und „Fehlgeschlagen“.</li>
+<li>Die Befehlspalette (⌘K) findet Flows, Specs, Mocks und MCP-Server nach Namen.</li>
+<li>GraphQL-Anfragen können sich eine Query-Datei teilen, und eine Anfrage kann ihre eigene Spec für openapi-Prüfungen angeben.</li>
+</ul>
+<h3>Verbessert</h3>
+<ul>
+<li>Veröffentlichte Builds fragen nicht mehr nach Zugriff auf den Schlüsselbund: Die App und das Befehlszeilentool teilen sich ihre Secrets. Variableneditoren warnen vor kurzen Secrets und gewöhnlichen Wörtern.</li>
+<li>Zeitpläne und Webhooks können ihre Umgebung angeben und laufen nie in einer geschützten Umgebung, die sie nicht angegeben haben. `echolot mcp serve` wechselt zur App, wenn die App den Arbeitsbereich öffnet.</li>
+<li>`echolot run` behält erfasste Werte im Speicher, außer mit --save-captures, und sendet nie eine Anfrage, deren Variablen sich nicht auflösen lassen.</li>
+</ul>
+<h3>Behoben</h3>
+<ul>
+<li>Behoben: gRPC-Reflection mit relativen Typnamen, MQTT-Broker, die nur 3.1.1 sprechen, und einige Layouts, die auf Französisch und Russisch über ihren Bereich hinausliefen.</li>
+</ul>
+</body></html>

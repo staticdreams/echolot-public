@@ -3,6 +3,46 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Mon, 09 Nov 2026 20:20:33 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Mocks stream: routes play server-sent events, take WebSocket and Socket.IO connections, and a mock can run an MQTT broker beside its port. JavaScript routes take sockets too.</li>
+<li>gRPC requests can run as live calls: send messages one at a time and see answers as they arrive.</li>
+<li>Webhooks can be signed: a sender&apos;s HMAC signature lets a delivery in without the token, and tokens can be rotated.</li>
+<li>Agents make every kind of request, set OAuth 2.0 client-credentials auth, and keep WebSocket, Socket.IO and MQTT sessions open across calls (the new Sessions toolset, with Stop in the Agents popover).</li>
+<li>Agents can propose a script: you see the diff and choose Save and Trust or Decline.</li>
+<li>Suites check WebSocket, Socket.IO and MQTT sessions: checks and captures on received messages, message counts and closes, and a request can stop listening once it has what it needs.</li>
+<li>The Tests page runs checks with Run and Run All; the Runner filters its results by Passed and Failed.</li>
+<li>The command palette (⌘K) finds flows, specs, mocks and MCP servers by name.</li>
+<li>GraphQL requests can share one query file, and a request can name its own spec for openapi checks.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>Released builds no longer ask for Keychain access: the app and the command-line tool share their secrets. Variable editors warn about short secrets and ordinary words.</li>
+<li>Schedules and webhooks can name their environment and never run in a protected one they didn&apos;t name. `echolot mcp serve` moves to the app when the app opens the workspace.</li>
+<li>`echolot run` keeps captured values in memory unless --save-captures, and never sends a request whose variables don&apos;t resolve.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed gRPC reflection with relative type names, MQTT brokers that only speak 3.1.1, and a few layouts that ran past their pane in French and Russian.</li>
+</ul>
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="de">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh">https://staticdreams.github.io/echolot-public/Echolot-0.9.0.zh.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.9.0/Echolot-0.9.0.dmg" length="88688172" type="application/octet-stream" sparkle:edSignature="8hziNFfn5Z/B3jTz/Nd8pCvGKDxzRyPOiZjbKJoDauCCoNaLJiNjLL93zPvG2mHmJXRIHZtgmlFy8z8Rd7eODQ=="/>
+        </item>
+        <item>
             <title>0.8.1</title>
             <pubDate>Sun, 08 Nov 2026 10:33:27 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Nuevo</h3>
+<ul>
+<li>Los mocks transmiten en directo: las rutas reproducen eventos enviados por el servidor, aceptan conexiones WebSocket y Socket.IO, y un mock puede ejecutar un bróker MQTT junto a su puerto. Las rutas en JavaScript también aceptan sockets.</li>
+<li>Las solicitudes gRPC pueden ejecutarse como llamadas en directo: envía los mensajes de uno en uno y ve las respuestas a medida que llegan.</li>
+<li>Los webhooks pueden ir firmados: la firma HMAC de un remitente deja entrar una entrega sin el token, y los tokens se pueden rotar.</li>
+<li>Los agentes crean todo tipo de solicitudes, configuran la autenticación OAuth 2.0 con credenciales de cliente y mantienen sesiones WebSocket, Socket.IO y MQTT abiertas entre llamadas (el nuevo conjunto de herramientas Sesiones, con Detener en la ventana emergente de Agentes).</li>
+<li>Los agentes pueden proponer un script: ves las diferencias y eliges Guardar y confiar o Rechazar.</li>
+<li>Las suites de pruebas comprueban sesiones WebSocket, Socket.IO y MQTT: comprobaciones y capturas sobre los mensajes recibidos, el número de mensajes y los cierres, y una solicitud puede dejar de escuchar en cuanto tiene lo que necesita.</li>
+<li>La página Pruebas ejecuta comprobaciones con Ejecutar y Ejecutar todo; Ejecución filtra sus resultados por Superadas y Con error.</li>
+<li>La paleta de comandos (⌘K) encuentra flujos, especificaciones, mocks y servidores MCP por su nombre.</li>
+<li>Las solicitudes GraphQL pueden compartir un archivo de consulta, y una solicitud puede indicar su propia especificación para las comprobaciones openapi.</li>
+</ul>
+<h3>Mejorado</h3>
+<ul>
+<li>Las versiones publicadas ya no piden acceso al llavero: la app y la herramienta de línea de comandos comparten sus secretos. Los editores de variables avisan de los secretos cortos y de las palabras corrientes.</li>
+<li>Las programaciones y los webhooks pueden indicar su entorno y nunca se ejecutan en un entorno protegido que no hayan indicado. `echolot mcp serve` pasa a la app cuando la app abre el espacio de trabajo.</li>
+<li>`echolot run` mantiene los valores capturados en memoria salvo con --save-captures, y nunca envía una solicitud cuyas variables no se resuelvan.</li>
+</ul>
+<h3>Corregido</h3>
+<ul>
+<li>Corregidos: la reflexión gRPC con nombres de tipo relativos, los brókeres MQTT que solo hablan 3.1.1 y algunas disposiciones que se salían de su panel en francés y ruso.</li>
+</ul>
+</body></html>
