@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Neu</h3>
+<ul>
+<li>Flows sichern Ergebnisse in Dateien: Der Block „Datei schreiben“ schreibt JSON, JSON Lines, CSV, TSV, eine Arbeitsmappe, Markdown oder eine HTML-Seite, kann anhängen oder beide behalten, wenn die Datei schon existiert, und kann dich fragen, wo gesichert werden soll.</li>
+<li>Flows erhalten einen Block „Modell fragen“, der einmal das Modell aus „Einstellungen › Assistent“ fragt. Blöcke lassen sich unter einem Titel gruppieren und einfärben.</li>
+<li>Antworten lassen sich gegen das GraphQL-Schema der Anfrage prüfen.</li>
+<li>Die Seite „MCP-Server“ listet Ressourcenvorlagen auf, mit einem Feld für jede Variable. Die Sampling-Anfrage eines Servers kann dein Modell beantworten, und du liest die Antwort, bevor sie zurückgeht.</li>
+</ul>
+<h3>Verbessert</h3>
+<ul>
+<li>WebSocket, Socket.IO und GraphQL-Subscriptions senden die Auth der Anfrage mit dem Upgrade (Hawk, OAuth 1.0, EdgeGrid, AWS, Digest). Veröffentlichte MQTT-Nachrichten tragen Eigenschaften von MQTT 5.0.</li>
+<li>Automatische Header wie User-Agent, Accept und Cookie lassen sich pro Anfrage abschalten. Der Tab „Einstellungen“ zeigt nur, was die Art der Anfrage nutzt. „Als cURL kopieren“ und „Code erzeugen“ enthalten Signaturen für Hawk, OAuth 1.0 und EdgeGrid.</li>
+<li>Die Tool-Aufrufe des Assistenten liegen in einer Ablage hinter dem Eingabefeld. Die Unterhaltung behält nur die Worte.</li>
+<li>Eine Kopie eines Arbeitsbereichs fragt, bevor sie die Secrets und Berechtigungen des Originals nutzt.</li>
+<li>Schnellversand (das Panel in der Menüleiste) wurde entfernt. Die Aktionen für Kurzbefehle bleiben.</li>
+</ul>
+<h3>Behoben</h3>
+<ul>
+<li>Zwei Sicherheitsaudits: Bösartige Antworten, Specs und Server können Echolot nicht mehr zum Absturz bringen oder hängen lassen, Weiterleitungen tragen keine Secrets mehr zu anderen Hosts, und Agenten sehen nur, was das Sicherheitsmodell erlaubt.</li>
+<li>Behoben: Bearbeitungen, die beim Neuladen oder Beenden verloren gingen, das langsame Öffnen von großem JSON und langen Zeilen, Dialoge in Marine sowie die geführte Tour.</li>
+</ul>
+</body></html>

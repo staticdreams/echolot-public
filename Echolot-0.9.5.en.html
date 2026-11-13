@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>New</h3>
+<ul>
+<li>Flows save results to files: the Write File block writes JSON, JSON Lines, CSV, TSV, a workbook, Markdown or an HTML page, can append or keep both when the file exists, and can ask you where to save.</li>
+<li>Flows get an Ask a Model block, which asks the model from Settings › Assistant once. Blocks can be grouped under a title and coloured.</li>
+<li>Responses can be checked against the request&apos;s GraphQL schema.</li>
+<li>The MCP Servers page lists resource templates, with a field for each variable. A server&apos;s sampling request can be answered by your model, and you read the answer before it goes back.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>WebSocket, Socket.IO and GraphQL subscriptions send the request&apos;s auth with the upgrade (Hawk, OAuth 1.0, EdgeGrid, AWS, Digest). MQTT publishes carry 5.0 properties.</li>
+<li>Automatic headers such as User-Agent, Accept and Cookie can be switched off per request. The Settings tab shows only what the request&apos;s kind uses. Copy as cURL and Generate Code include Hawk, OAuth 1.0 and EdgeGrid signatures.</li>
+<li>The Assistant&apos;s tool calls live in a tray behind the composer. The conversation keeps only the words.</li>
+<li>A copy of a workspace asks before it uses the original&apos;s secrets and permissions.</li>
+<li>Quick Send (the menu bar panel) is removed. The Shortcuts actions stay.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Two security audits: hostile responses, specs and servers can no longer crash or hang Echolot, redirects no longer carry secrets to other hosts, and agents see only what the safety model allows.</li>
+<li>Fixed edits lost on a reload or quit, slow opening of large JSON and long lines, sheets in Marine, and the onboarding tour.</li>
+</ul>
+</body></html>

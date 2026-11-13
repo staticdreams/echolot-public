@@ -3,6 +3,44 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.9.5</title>
+            <pubDate>Fri, 13 Nov 2026 23:19:21 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li>Flows save results to files: the Write File block writes JSON, JSON Lines, CSV, TSV, a workbook, Markdown or an HTML page, can append or keep both when the file exists, and can ask you where to save.</li>
+<li>Flows get an Ask a Model block, which asks the model from Settings › Assistant once. Blocks can be grouped under a title and coloured.</li>
+<li>Responses can be checked against the request&apos;s GraphQL schema.</li>
+<li>The MCP Servers page lists resource templates, with a field for each variable. A server&apos;s sampling request can be answered by your model, and you read the answer before it goes back.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>WebSocket, Socket.IO and GraphQL subscriptions send the request&apos;s auth with the upgrade (Hawk, OAuth 1.0, EdgeGrid, AWS, Digest). MQTT publishes carry 5.0 properties.</li>
+<li>Automatic headers such as User-Agent, Accept and Cookie can be switched off per request. The Settings tab shows only what the request&apos;s kind uses. Copy as cURL and Generate Code include Hawk, OAuth 1.0 and EdgeGrid signatures.</li>
+<li>The Assistant&apos;s tool calls live in a tray behind the composer. The conversation keeps only the words.</li>
+<li>A copy of a workspace asks before it uses the original&apos;s secrets and permissions.</li>
+<li>Quick Send (the menu bar panel) is removed. The Shortcuts actions stay.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Two security audits: hostile responses, specs and servers can no longer crash or hang Echolot, redirects no longer carry secrets to other hosts, and agents see only what the safety model allows.</li>
+<li>Fixed edits lost on a reload or quit, slow opening of large JSON and long lines, sheets in Marine, and the onboarding tour.</li>
+</ul>
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="de">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh">https://staticdreams.github.io/echolot-public/Echolot-0.9.5.zh.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.9.5/Echolot-0.9.5.dmg" length="91390959" type="application/octet-stream" sparkle:edSignature="kQ5ynO0EaqNBjXz46YET6bOSPBw/b0k9GmMtrLP0wizehk3hhHlZtJlaOVOMzPY7HHwnO/T1oemNqBOdVMz5CA=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Mon, 09 Nov 2026 20:20:33 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>

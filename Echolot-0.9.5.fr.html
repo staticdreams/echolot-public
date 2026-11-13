@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Nouveau</h3>
+<ul>
+<li>Les flux enregistrent leurs résultats dans des fichiers : le bloc Écrire un fichier écrit du JSON, du JSON Lines, du CSV, du TSV, un classeur, du Markdown ou une page HTML, peut ajouter à la fin du fichier ou conserver les deux quand le fichier existe, et peut vous demander où enregistrer.</li>
+<li>Les flux gagnent un bloc Interroger un modèle, qui interroge une fois le modèle choisi dans Réglages › Assistant. Les blocs peuvent être regroupés sous un titre et colorés.</li>
+<li>Les réponses peuvent être vérifiées par rapport au schéma GraphQL de la requête.</li>
+<li>La page Serveurs MCP liste les modèles de ressource, avec un champ pour chaque variable. Votre modèle peut répondre à une demande d’échantillonnage (sampling) d’un serveur, et vous lisez la réponse avant qu’elle ne lui soit renvoyée.</li>
+</ul>
+<h3>Amélioré</h3>
+<ul>
+<li>WebSocket, Socket.IO et les abonnements GraphQL envoient l’authentification de la requête avec la mise à niveau (Hawk, OAuth 1.0, EdgeGrid, AWS, Digest). Les publications MQTT portent des propriétés 5.0.</li>
+<li>Les en-têtes automatiques comme User-Agent, Accept et Cookie peuvent être désactivés requête par requête. L’onglet Réglages n’affiche que ce qu’utilise le type de la requête. Copier en tant que cURL et Générer du code incluent les signatures Hawk, OAuth 1.0 et EdgeGrid.</li>
+<li>Les appels d’outils de l’Assistant se trouvent dans un tiroir derrière la zone de saisie. La conversation ne garde que les mots.</li>
+<li>Une copie d’un espace de travail demande avant d’utiliser les secrets et les autorisations de l’original.</li>
+<li>L’envoi rapide (le panneau de la barre des menus) est supprimé. Les actions Raccourcis restent.</li>
+</ul>
+<h3>Corrigé</h3>
+<ul>
+<li>Deux audits de sécurité : des réponses, des specs et des serveurs hostiles ne peuvent plus faire planter ni bloquer Echolot, les redirections n’emportent plus de secrets vers d’autres hôtes, et les agents ne voient que ce que le modèle de sécurité autorise.</li>
+<li>Correction des modifications perdues lors d’un rechargement ou en quittant, de l’ouverture lente des gros JSON et des longues lignes, des feuilles en Marine et de la visite guidée.</li>
+</ul>
+</body></html>

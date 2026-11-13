@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="light dark">
+<style>body { font: -apple-system-body; font-family: -apple-system, sans-serif; margin: 12px 16px; } h3 { font-size: 1em; margin: 1em 0 .4em; } ul { padding-left: 1.2em; margin: 0; } li { margin: .25em 0; }</style>
+</head><body>
+<h3>Nuevo</h3>
+<ul>
+<li>Los flujos guardan resultados en archivos: el bloque Escribir archivo escribe JSON, JSON Lines, CSV, TSV, un libro de cálculo, Markdown o una página HTML, puede añadir al final o conservar ambos cuando el archivo ya existe, y puede preguntarte dónde guardarlo.</li>
+<li>Los flujos tienen un bloque Preguntar a un modelo, que pregunta una vez al modelo de Ajustes › Asistente. Los bloques se pueden agrupar bajo un título y colorear.</li>
+<li>Las respuestas se pueden comprobar con el esquema GraphQL de la solicitud.</li>
+<li>La página Servidores MCP muestra las plantillas de recursos, con un campo para cada variable. Tu modelo puede responder a la petición de muestreo de un servidor, y tú lees la respuesta antes de que se devuelva.</li>
+</ul>
+<h3>Mejorado</h3>
+<ul>
+<li>WebSocket, Socket.IO y las suscripciones GraphQL envían la autenticación de la solicitud con la actualización de la conexión (Hawk, OAuth 1.0, EdgeGrid, AWS, Digest). Las publicaciones MQTT llevan propiedades de MQTT 5.0.</li>
+<li>Las cabeceras automáticas, como User-Agent, Accept y Cookie, se pueden desactivar en cada solicitud. La pestaña Ajustes muestra solo lo que usa el tipo de la solicitud. Copiar como cURL y Generar código incluyen las firmas Hawk, OAuth 1.0 y EdgeGrid.</li>
+<li>Las llamadas a herramientas del Asistente están en una bandeja detrás del campo de mensaje. La conversación conserva solo las palabras.</li>
+<li>Una copia de un espacio de trabajo pregunta antes de usar los secretos y permisos del original.</li>
+<li>Se elimina Envío rápido (el panel de la barra de menús). Las acciones de Atajos se mantienen.</li>
+</ul>
+<h3>Corregido</h3>
+<ul>
+<li>Dos auditorías de seguridad: las respuestas, especificaciones y servidores hostiles ya no pueden hacer que Echolot se cierre inesperadamente ni que se bloquee, las redirecciones ya no llevan secretos a otros hosts y los agentes solo ven lo que permite el modelo de seguridad.</li>
+<li>Corregidos: las ediciones que se perdían al recargar o salir, la apertura lenta de JSON grandes y de líneas largas, las hojas en Marine y el recorrido guiado.</li>
+</ul>
+</body></html>
