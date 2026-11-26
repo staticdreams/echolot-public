@@ -3,6 +3,32 @@
     <channel>
         <title>Echolot</title>
         <item>
+            <title>0.9.7</title>
+            <pubDate>Thu, 26 Nov 2026 10:13:14 +0100</pubDate>
+            <link>https://github.com/staticdreams/echolot-public/releases</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improved</h3>
+<ul>
+<li>A folder&apos;s settings (auth, variables, scripts and docs) open from a gear on its row in the requests list, and Folder Settings… comes first in the folder&apos;s menu.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>A workspace moved to the Trash is no longer listed among the recent workspaces.</li>
+</ul>
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="de">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh">https://staticdreams.github.io/echolot-public/Echolot-0.9.7.zh.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/staticdreams/echolot-public/releases/download/v0.9.7/Echolot-0.9.7.dmg" length="91411196" type="application/octet-stream" sparkle:edSignature="nJcxWsbE0rWHCPAoov9EG4W1432E5paHUraG+zR6SUrys41zbMOTxCMedB77JQvsKVhcEz8ZU7Bh5SVsHtkbBg=="/>
+        </item>
+        <item>
             <title>0.9.6</title>
             <pubDate>Wed, 25 Nov 2026 12:31:36 +0100</pubDate>
             <link>https://github.com/staticdreams/echolot-public/releases</link>
